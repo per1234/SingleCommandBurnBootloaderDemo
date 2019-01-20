@@ -1,0 +1,33 @@
+{
+  "packages": [
+    {
+      "name": "SingleCommandBurnBootloaderDemo",
+      "maintainer": "per1234",
+      "websiteURL": "https://github.com/per1234/SingleCommandBurnBootloaderDemo",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "SingleCommandBurnBootloaderDemo",
+          "architecture": "avr",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://per1234.github.io/SingleCommandBurnBootloaderDemo/SingleCommandBurnBootloaderDemo-0.0.1.tar.bz2",
+          "archiveFileName": "SingleCommandBurnBootloaderDemo-0.0.1.tar.bz2",
+          "checksum": "SHA-256:8317299b4f6ebc0142873bb347365e118822b794b2455303b1b763e77f8fd494",
+          "size": "223886",
+          "boards": [
+            {"name": "AVR Dragon (Single Command Burn Bootloader) programmer"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
