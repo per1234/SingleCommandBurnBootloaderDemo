@@ -19,3 +19,25 @@ Note: This package includes a programmer definition for the AVR Dragon: **Tools 
 References:
 - https://github.com/arduino/Arduino/issues/650
 - https://github.com/arduino/Arduino/issues/2986
+
+
+#### Installation
+There are two options for installing InoAVRDragon:
+##### Boards Manager
+This installation method requires Arduino IDE version 1.6.4 or newer.
+1. Start the Arduino IDE.
+1. **File > Preferences**
+1. Enter the following URL in **Additional Boards Manager URLs**: https://per1234.github.io/SingleCommandBurnBootloaderDemo/package_per1234_SingleCommandBurnBootloaderDemo_index.json
+    - If you already have a URL in that field, separate the URLs with a comma.
+1. **Tools > Board > Boards Manager...**
+1. Wait for the downloads to finish.
+1. Scroll down until you see **SingleCommandBurnBootloaderDemo by per1234**. Click on it.
+1. Click **Install**.
+1. Wait for installation to finish.
+1. Click **Close**.
+
+##### Manual Installation
+1. Download SingleCommandBurnBootloaderDemo from one of the **Source code** links of the newest release at: https://github.com/per1234/SingleCommandBurnBootloaderDemo/releases.
+1. Extract the downloaded file.
+1. Copy the extracted folder inside your sketchbook/hardware folder. You can find the location of the sketchbook folder in the Arduino IDE at **File > Preferences > Sketchbook Location**
+1. If the Arduino IDE is running, restart it.
