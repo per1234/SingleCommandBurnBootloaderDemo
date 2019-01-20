@@ -1,0 +1,6 @@
+avrdragon.name=AVR Dragon (Single Command Burn Bootloader)
+avrdragon.communication=usb
+avrdragon.protocol=dragon_isp
+avrdragon.program.protocol=dragon_isp
+avrdragon.program.tool=avrdude
+avrdragon.program.extra_params=-Pusb
